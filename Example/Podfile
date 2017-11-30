@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'YLT_CityLib_Example' do
+  pod 'YLT_CityLib', :path => '../'
+
+  target 'YLT_CityLib_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

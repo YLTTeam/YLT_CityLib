@@ -1,0 +1,6 @@
+framework module YLT_CityLib {
+  umbrella header "YLT_CityLib-umbrella.h"
+
+  export *
+  module * { export * }
+}
